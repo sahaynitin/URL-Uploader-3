@@ -33,7 +33,7 @@ Made by @vkprojects
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/VKPROJECTS),
+        InlineKeyboardButton('Channel', url='https://telegram.me/VKPROJECTS'),
         InlineKeyboardButton('Group', url='https://telegram.me/VKP_BOTS')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),

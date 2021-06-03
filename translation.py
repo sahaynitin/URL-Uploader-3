@@ -8,37 +8,35 @@ Hello {} , I'am a url to telegram file or media uploader bot with permanent thum
 Made by @vkprojects
 """
     HELP_TEXT = """
-<b><u>Link to Media or File</u></b>
-➠ Send a link for upload to telegram file or media.
+<b>Link to Media or File</b>
+- Send a link for upload to telegram file or media.
 
-<b><u>Set Thumbnail</u></b>
-➠ Send a photo to make it as permanent thumbnail.
+<b>Set Thumbnail</b>
+- Send a photo to make it as permanent thumbnail.
 
-<b><u>Deleting Thumbnail</u></b>
-➠ Send /delthumb to deleting thumbnail.
+<b>Deleting Thumbnail</b>
+- Send /delthumb to deleting thumbnail.
 
-<b><u>Show Thumbnail</u></b>
-➠ Send /showthumb to view custom thumbnail.
+<b>Show Thumbnail</b>
+- Send /showthumb to view custom thumbnail.
 
-Made by @vkprojects
+<b>❤ Made by @vkprojects<b>
 """
     ABOUT_TEXT = """
-- **Bot :** `URL Uploader`
-- **Creator :** [Vivek](https://telegram.me/vivektvp)
-- **Channel :** [Vk Projects](https://telegram.me/VKPROJECTS)
-- **Credits :** `Everyone in this journey`
-- **Language :** [Python3](https://python.org)
-- **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
-- **Server :** [Heroku](https://heroku.com)
+**Bot :** `URL Uploader`
+**Creator :** [Vivek](https://telegram.me/vivektvp)
+**Channel :** [Vk Projects](https://telegram.me/VKPROJECTS)
+**Credits :** `Everyone in this journey`
+**Language :** [Python3](https://python.org)
+**Library :** [Pyrogram v1.2.0](https://pyrogram.org)
+**Server :** [Heroku](https://heroku.com)
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/VKPROJECTS'),
-        InlineKeyboardButton('Group', url='https://telegram.me/VKP_BOTS')
+        InlineKeyboardButton('Channel', url='https://telegram.me/VKPROJECTS')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('About', callback_data='about'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('About', callback_data='about')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(

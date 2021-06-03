@@ -20,7 +20,7 @@ Made by @vkprojects
 <b>Show Thumbnail</b>
 - Send /showthumb to view custom thumbnail.
 
-<b>❤ Made by @vkprojects<b>
+<b>❤ Made by @vkprojects</b>
 """
     ABOUT_TEXT = """
 **Bot :** `URL Uploader`

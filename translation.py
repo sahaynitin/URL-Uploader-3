@@ -5,7 +5,7 @@ class Translation(object):
     START_TEXT = """
 Hello {} , I'am a url to telegram file or media uploader bot with permanent thumbnail support.
 
-Made by @vkprojects
+❤ Made by @vkprojects
 """
     HELP_TEXT = """
 <b>Link to Media or File</b>
@@ -33,22 +33,22 @@ Made by @vkprojects
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/VKPROJECTS')
+        InlineKeyboardButton('Channel📣', url='https://telegram.me/VKPROJECTS')
         ],[
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('About', callback_data='about')
+        InlineKeyboardButton('🤔Help', callback_data='help'),
+        InlineKeyboardButton('🤖About', callback_data='about')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('About', callback_data='about'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('🤖About', callback_data='about'),
+        InlineKeyboardButton('Close🔐', callback_data='close')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('🏠Home', callback_data='home'),
+        InlineKeyboardButton('Close🔐', callback_data='close')
         ]]
     )
     FORMAT_SELECTION = """<b>Select the desired format:</b> <a href='{}'>file size might be approximate</a>

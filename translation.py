@@ -3,11 +3,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
-Hello {} ,
+<b>Hello {} , !!!
 
-I'am a url to telegram file or media uploader bot with permanent thumbnail support.
-
-❤ Made by @vkprojects
+I'am a url to telegram file or media uploader bot with permanent thumbnail support.</b>
 """
     HELP_TEXT = """
 <b>Link to Media or File</b>
@@ -21,8 +19,6 @@ I'am a url to telegram file or media uploader bot with permanent thumbnail suppo
 
 <b>Show Thumbnail</b>
 - Send /showthumb to view custom thumbnail.
-
-<b>❤ Made by @vkprojects</b>
 """
     ABOUT_TEXT = """
 **Bot :** `URL Uploader`
@@ -35,22 +31,22 @@ I'am a url to telegram file or media uploader bot with permanent thumbnail suppo
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel📣', url='https://telegram.me/VKPROJECTS')
+        InlineKeyboardButton('🤔 Help', callback_data='help'),
+        InlineKeyboardButton('🤖 About', callback_data='about'),
         ],[
-        InlineKeyboardButton('🤔Help', callback_data='help'),
-        InlineKeyboardButton('🤖About', callback_data='about')
+        InlineKeyboardButton('Close🔐', callback_data='close')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🤖About', callback_data='about'),
-        InlineKeyboardButton('Close🔐', callback_data='close')
+        InlineKeyboardButton('🤖 About', callback_data='about'),
+        InlineKeyboardButton('Close 🔐', callback_data='close')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🏠Home', callback_data='home'),
-        InlineKeyboardButton('Close🔐', callback_data='close')
+        InlineKeyboardButton('🏠 Home', callback_data='home'),
+        InlineKeyboardButton('Close 🔐', callback_data='close')
         ]]
     )
     FORMAT_SELECTION = """<b>Select the desired format:</b> <a href='{}'>file size might be approximate</a>

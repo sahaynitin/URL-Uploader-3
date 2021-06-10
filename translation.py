@@ -6,6 +6,8 @@ class Translation(object):
 <b>Hello {} , !!!
 
 I'am a url to telegram file or media uploader bot with permanent thumbnail support.</b>
+
+<i>For More Details check Help 📜</i>
 """
     HELP_TEXT = """
 <b>Link to Media or File</b>
